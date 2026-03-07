@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نادي أفق الرواد الإعلامي</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            direction: rtl;
+            text-align: right;
+        }
+
+        header {
+            background-color: #003366; /* Dark blue */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #d4af37; /* Gold */
+        }
+
+        .hero {
+            position: relative;
+            height: 500px;
+            background-color: #001f3f; /* Navy blue */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #d4af37; /* Gold */
+            text-align: center;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            color: #003366;
+        }
+
+        .about {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .team-member {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .team-member h3 {
+            color: #d4af37;
+        }
+
+        form {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #d4af37;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background-color: #b8860b;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        /* Ornate patterns simulation with CSS */
+        .ornate-border {
+            border: 2px solid #d4af37;
+            border-radius: 15px;
+            padding: 20px;
+            position: relative;
+        }
+
+        .ornate-border::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 20px;
+            background: radial-gradient(circle, #d4af37 0%, transparent 70%);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>الجمهورية الجزائرية الديمقراطية الشعبية</h1>
+        <h2>وزارة التعليم العالي و البحث العلمي</h2>
+        <p>ولاية النعامة - جامعة صالحي أحمد</p>
+        <p>الإقامة الجامعية بن علي بودغن</p>
+        <p>تحت إشراف مدير الخدمات الجامعية ومديرة الإقامة الجامعية</p>
+    </header>
+
+    <div class="hero">
+        <!-- Replace 'path/to/your/image.jpg' with the actual path or base64 of the uploaded image -->
+        <img src="/rr4.jpg" alt="شعار النادي">
+        <div class="hero-text">
+            <h1>يسعدنا انضمامكم إلى نادي أفق الرواد الإعلامي</h1>
+        </div>
+    </div>
+
+    <section id="about" class="about ornate-border">
+        <h2>من نحن</h2>
+        <p>نادي أفق الرواد الإعلامي هو نادٍ جامعي يهدف إلى تعزيز المهارات الإعلامية والإبداعية بين الطلاب. نحن نسعى لخلق بيئة تعليمية ملهمة تجمع بين الابتكار والتعليم، مما يساهم في بناء جيل من الرواد الإعلاميين المؤثرين في المجتمع.</p>
+    </section>
+
+    <section id="team">
+        <h2>الرتب</h2>
+        <div class="team">
+            <div class="team-member">
+                <h3>رئيس النادي داخل الإقامة الجامعية</h3>
+                <p>كوثر صطاف</p>
+            </div>
+            <div class="team-member">
+                <h3>نائب</h3>
+                <p>غانية مفتاح</p>
+            </div>
+            <div class="team-member">
+                <h3>مسؤول الصيانة</h3>
+                <p>طجين مليكة</p>
+            </div>
+            <div class="team-member">
+                <h3>مسؤول البرمجة</h3>
+                <p>نائلة بن حمادة</p>
+            </div>
+            <div class="team-member">
+                <h3>مسؤول الإعلام</h3>
+                <p>ثفات</p>
+            </div>
+            <div class="team-member">
+                <h3>مسؤولة التنظيم</h3>
+                <p>عائشة بن حمادة</p>
+            </div>
+            <div class="team-member">
+                <h3>مسؤولة العلاقات والتواصل</h3>
+                <p>بلونيس إيمان</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="join">
+        <h2>الانضمام</h2>
+        <form action="http://formspree.io/f/xvzwpyjy" method="POST"> <!-- Replace with actual form handler -->
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="surname">اللقب:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="phone">رقم الهاتف:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="reg_number">رقم التسجيل الجامعي:</label>
+            <input type="text" id="reg_number" name="reg_number" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="specialty">التخصص:</label>
+            <input type="text" id="specialty" name="specialty" required>
+
+            <label for="previous">هل سبق لك أن انضممت إلى نادي؟</label>
+            <select id="previous" name="previous" required>
+                <option value="نعم">نعم</option>
+                <option value="لا">لا</option>
+            </select>
+
+            <label for="reason">لماذا تريد الانضمام؟</label>
+            <textarea id="reason" name="reason" rows="4" required></textarea>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>التواصل معنا: <a href="mailto:sattafkawtar444@gmail.com" style="color: #d4af37;">sattafkawtar444@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
